@@ -7,6 +7,10 @@ from fake_useragent import UserAgent
 
 
 class WeiBo():
+  # in this userpost.py, the main purpose is to get the specific user weibo post for specific page number,
+  # you should input the userid, your cookies, and the number of page you want to get.
+  # the output is the csv file to show the information about the post date, post url, text, and comment count, like count.
+  
   def __init__(self,userid,cookies):
     self.url='https://m.weibo.cn/api/container/getIndex?'
     self.cookies=cookies
