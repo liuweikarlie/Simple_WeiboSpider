@@ -1,5 +1,7 @@
 # Simple_WeiboSpider
 
+Weibo url= https://m.weibo.cn/
+
 Required Packages
 1. requests
 2. pandas
